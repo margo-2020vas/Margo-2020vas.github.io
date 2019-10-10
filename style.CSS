@@ -1,11 +1,11 @@
 p {
 font-weight: lighter;
-font-size: 10pt;
+font-size: 24pt;
 }
 h2 {
 color: pink;
 text-align: center;
 text-shadow: 2px 2px 5px blue;
 background-color: #FF C0 CB	;
-background-image:https://drive.google.com/thumbnail?id=1NubqRlhf1h4hm4cK_YoRon50jSi8Lbhu&authuser=0&sz=w1582-h788 repeat-y, left
+background-image:(left.png) repeat-y, url(right.png) repeat-x 100%, #fc0;
 }
