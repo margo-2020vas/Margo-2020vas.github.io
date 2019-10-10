@@ -7,6 +7,6 @@ color: black;
 text-align: center;
 text-shadow: 2px 2px 5px blue;
 background-color: #DEB887	;
-background-image:(left.png) repeat-y; 
-background-image:(right.png) repeat-x;  
+background-image: url(left.png) repeat-y; 
+background-image: url(right.png) repeat-x;  
 }
