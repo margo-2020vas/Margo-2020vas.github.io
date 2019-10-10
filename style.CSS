@@ -1,0 +1,10 @@
+p {
+font-weight: bold;
+font-size: 10pt;
+}
+h2 {
+color: pink;
+text-align: center;
+text-shadow: 2px 2px 5px blue;
+background-color: #FF C0 CB	;
+}
