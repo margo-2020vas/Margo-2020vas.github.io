@@ -1,12 +1,17 @@
+html {
+backround:url(left.png); backround-position:left; backround-repeat:repeat-y; backround-attachment:scroll;
+  }
+body{
+  backround:url(right.png); backround-position:right; backround-repeat:repeat-y; backround-attachment:scroll;
+}
 p {
 font-weight: 100;
 font-size: 24pt;
 }
 h2 {
-color: black;
+color: pink;
 text-align: center;
-text-shadow: 2px 2px 5px blue;
+text-shadow: 2px 2px 5px red;
 background-color: #DEB887	;
-background-image: url(left.png) repeat-y; 
-background-image: url(right.png) repeat-x;  
+
 }
