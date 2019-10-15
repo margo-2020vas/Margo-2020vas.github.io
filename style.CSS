@@ -1,5 +1,5 @@
 html {
-backround-image:url(left.png); backround-position:left; backround-repeat:repeat-y; backround-attachment:scroll;
+backround-image:url(left.png) left repeat-y;
   }
 body{
   backround-image:url(right.png); backround-position:right; backround-repeat:repeat-y; backround-attachment:scroll;
