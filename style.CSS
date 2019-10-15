@@ -1,8 +1,6 @@
-html {
-backround-image:url(left.png) left repeat-y;
-  }
+
 body{
-  backround-image:url(right.png); backround-position:right; backround-repeat:repeat-y; backround-attachment:scroll;
+  backround-image:url(right.png) right repeat-y, url(left.png) left repeat-y;
 }
 p {
 font-weight: 100;
