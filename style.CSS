@@ -1,8 +1,8 @@
 html {
-backround:url(left.png); backround-position:left; backround-repeat:repeat-y; backround-attachment:scroll;
+backround-image:url(left.png); backround-position:left; backround-repeat:repeat-y; backround-attachment:scroll;
   }
 body{
-  backround:url(right.png); backround-position:right; backround-repeat:repeat-y; backround-attachment:scroll;
+  backround-image:url(right.png); backround-position:right; backround-repeat:repeat-y; backround-attachment:scroll;
 }
 p {
 font-weight: 100;
