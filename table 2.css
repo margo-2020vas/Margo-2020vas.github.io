@@ -1,0 +1,4 @@
+body{
+	background: url(left.png) repeat-y,
+url(right.png) repeat-y 100%, pink;
+}
