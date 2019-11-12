@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Список</title>
+	<h1 align="center"><font color="#8A2BE2">Список</font></h1>
+	<script type="text/javascript">	
+		function spisok()
+		{
+			num = frm.sp.selectedIndex;
+			str = frm.sp.options[num].text;
+			
+			mon.innerHTML = "<font color='blue'>" + str + "</font>";
+           
+
+		}
+
+		</script>
+	</head>
+<body>
+	<form name="frm">
+<select name="sp" onchange="spisok()">
+<option>Січень</option>
+<option>Лютий</option>
+<option>Березень</option>
+
+</select>
+<p id="mon"></p>
+</form>
+</body>
+</html>
