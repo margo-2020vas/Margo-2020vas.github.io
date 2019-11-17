@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>data</title>
+	<script type="text/javascript">
+		function ddtt() 
+		{
+			var dt = new Date();
+			d= dt.getDate();
+			m= dt.getMonth()+1;
+			y = dt.getYear()+1900;
+			dat.innerText = d + '.' + m + '.' + y;
+
+			h = dt.getHours();
+			mi = dt.getMinutes();
+			s = dt.getSeconds();
+			if(s<10) s= "0"+s;
+			if(s<10) s= "0"+h;
+			if(s<10) s= "0"+mi;
+			tim.innerText= h + ':' + mi + ':' + s;
+
+			if(h>5 && h<12) pr.innerHTML = '<font color="green">' + 'Good morning!';
+			if(h>=12 && h<16) pr.innerHTML = '<font color="orange">' + 'Good day!'; 
+			if(h>=17 && h<22) pr.innerHTML = '<font color="blue">' + 'Good evening!'; 
+			if(h>=22 && h<5) pr.innerHTML = '<font color="pink">' + 'Good night!'; 
+			setInterval("ddtt()",1000);
+		}
+	</script>
+</head>
+	<body onload="ddtt()">
+		<p id="dat"></p>
+		<p id="tim"></p>
+		<p id="pr"></p>
+	</body>
+	</html>
